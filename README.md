@@ -1,1 +1,1 @@
-# ReactJS +  Redux + Redux Thunk + SSR + Router + React Helmet
+# ReactJS +  Redux + Redux Thunk + SSR + Router + React Helmet + SASS
