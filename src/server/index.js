@@ -15,8 +15,6 @@ import {
   createMuiTheme,
   createGenerateClassName,
 } from '@material-ui/core/styles';
-import green from '@material-ui/core/colors/green';
-import red from '@material-ui/core/colors/red';
 
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST);
 
@@ -52,6 +50,7 @@ server
 
     // Render the component to a string
     const markup = renderToString(
+
       <Provider store={store}>
         <StaticRouter context={context} location={req.url}>
         <JssProvider registry={sheetsRegistry} generateClassName={generateClassName}>
