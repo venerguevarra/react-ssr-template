@@ -44,14 +44,10 @@ server
 
     // Create a theme instance.
     const theme = createMuiTheme({
-      palette: {
-        primary: green,
-        accent: red,
-        type: 'light',
-      },
       typography: {
+        htmlFontSize: 22,
         useNextVariants: true,
-      }
+      },
     });
 
     // Render the component to a string

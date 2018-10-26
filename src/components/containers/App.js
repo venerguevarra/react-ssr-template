@@ -1,14 +1,13 @@
 import React from 'react';
 import '../../styles/App.scss';
-import Button from '@material-ui/core/Button';
+import '../Dashboard';
+import Dashboard from '../Dashboard';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Button variant="contained" color="primary">
-          Hello World
-        </Button>
+        <Dashboard/>
       </div>
     );
   }

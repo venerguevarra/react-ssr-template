@@ -10,21 +10,15 @@ import {
   createMuiTheme,
   createGenerateClassName,
 } from '@material-ui/core/styles';
-import green from '@material-ui/core/colors/green';
-import red from '@material-ui/core/colors/red';
 
 const store = configureStore(window.__PRELOADED_STATE__);
 
 // Create a theme instance.
 const theme = createMuiTheme({
-  palette: {
-    primary: green,
-    accent: red,
-    type: 'light',
-  },
   typography: {
+    htmlFontSize: 22,
     useNextVariants: true,
-  }
+  },
 });
 // Create a new class name generator.
 const generateClassName = createGenerateClassName();
